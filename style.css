@@ -7,7 +7,7 @@
 }
 
 p {
-font-size: 5vmax;
+font-size: 5vmin;
 font-weight: 600;
 color: #ffde21;
 margin: 15px ;
@@ -17,12 +17,9 @@ margin: 15px ;
     display: none;
 }
 
-h1 {
-    font-size: 8vmax;
-}
 
 .container {
-  height: 80vmin;
+  height: 60vmin;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,9 +41,11 @@ h1 {
   border: none;
   border-radius: 50%;
   background-color: antiquewhite;
-  color: #ffde21;
+  color: #000;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
-  font-size: 12px;
+  font-size: 6vmin;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .btn:hover {
