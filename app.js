@@ -45,6 +45,7 @@ const winner = () => {
        if (firstPosition != "" && secondPosition != "" && thirdPosition != "") {
         if (firstPosition===secondPosition && secondPosition===thirdPosition) {
             displayWinner(firstPosition);
+            return true;
         }
        }
 }
